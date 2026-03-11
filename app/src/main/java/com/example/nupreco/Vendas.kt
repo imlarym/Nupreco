@@ -1,6 +1,5 @@
 package com.example.nupreco
 
-
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.Text
@@ -10,11 +9,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 
 @Composable
-fun Estoque() {
+fun Vendas() {
     Box(
         modifier = Modifier.fillMaxSize().background(Color(0xFF008040)),
         contentAlignment = Alignment.Center
     ) {
-        Text(text = "TELA DE ESTOQUE", color = Color.White)
+        Text(text = "TELA DE VENDAS", color = Color.White)
     }
 }
